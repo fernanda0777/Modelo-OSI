@@ -1,0 +1,22 @@
+Camada física
+A camada física se refere ao meio físico de comunicação e às tecnologias para transmitir dados por esse meio. Em sua essência, a comunicação de dados é a transferência de sinais digitais e eletrônicos por meio de vários canais físicos, como cabos de fibra óptica, cabos de cobre e ar. A camada física inclui padrões para tecnologias e métricas estreitamente relacionadas aos canais, como Bluetooth, NFC e velocidades de transmissão de dados.
+
+Camada de enlace de dados
+A camada de enlace de dados se refere às tecnologias usadas para conectar duas máquinas em uma rede onde a camada física já existe. Ela gerencia quadros de dados, que são sinais digitais encapsulados em pacotes de dados. O controle de fluxo e o controle de erros de dados geralmente são os principais focos da camada de enlace de dados. A Ethernet é um exemplo de padrão neste nível. A camada de enlace de dados geralmente é dividida em duas subcamadas: a camada Media Access Control (MAC) e a camada Logical Link Control (LLC). 
+
+Camada de rede
+A camada de rede se preocupa com conceitos como roteamento, encaminhamento e endereçamento em uma rede dispersa ou em várias redes conectadas de nós ou de máquinas. A camada de rede também pode gerenciar o controle de fluxo. Na Internet, o Internet Protocol v4 (IPv4) e o IPv6 são usados ​​como os principais protocolos da camada de rede.
+
+Camada de transporte
+O foco principal da camada de transporte é garantir que os pacotes de dados cheguem na ordem correta, sem perdas nem erros, ou que possam ser recuperados sem complicações, se necessário. O controle de fluxo, em conjunto com o controle de erros, é frequentemente um foco na camada de transporte. Nessa camada, os protocolos comumente usados ​​incluem o Transmission Control Protocol (TCP), um protocolo baseado em conexão quase sem perdas, e o User Datagram Protocol (UDP), um protocolo sem conexão com perdas. O TCP é comumente usado quando todos os dados devem estar intactos (por exemplo, em compartilhamentos de arquivos), enquanto o UDP é usado quando a retenção de todos os pacotes é menos crítica (por exemplo, em streaming de vídeos).
+
+Camada de sessão
+A camada de sessão é responsável pela coordenação de rede entre duas aplicações separadas em uma sessão. Uma sessão gerencia o início e o término de uma conexão individual de aplicações e conflitos de sincronização. O Network File System (NFS) e o Server Message Block (SMB) são protocolos comumente usados na camada de sessão.
+
+Camada de apresentação
+A camada de apresentação se preocupa principalmente com a sintaxe dos próprios dados para as aplicações enviarem e consumirem. Por exemplo, Hypertext Markup Language (HTML), JavaScript Object Notation (JSON) e Comma Separated Values (CSV) são todas linguagens de modelagem para descrever a estrutura de dados na camada de apresentação. 
+
+Camada de aplicação
+A camada de aplicação se preocupa com o tipo específico da aplicação em si e seus métodos de comunicação padronizados. Por exemplo, navegadores podem se comunicar usando HyperText Transfer Protocol Secure (HTTPS), e clientes de e-mail e HTTP podem se comunicar usando POP3 (Post Office Protocol versão 3) e SMTP (Simple Mail Transfer Protocol).
+
+Nem todos os sistemas que usam o modelo OSI implementam todas as camadas.
